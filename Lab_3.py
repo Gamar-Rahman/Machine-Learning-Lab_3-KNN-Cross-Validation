@@ -99,7 +99,6 @@ def problem2():
     import os
     import gzip
 
-    DATA_URL = 'http://yann.lecun.com/exdb/mnist/'
 
     def maybe_download(filename):
         if not os.path.exists(filename):
